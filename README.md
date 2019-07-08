@@ -3,4 +3,4 @@
 
 
 效果图：
-![image]（https://github.com/yangguanghei/OrderBypin-yin/blob/master/0.字母排序.png）
+![image](https://github.com/yangguanghei/OrderBypin-yin/blob/master/0.字母排序.png)
