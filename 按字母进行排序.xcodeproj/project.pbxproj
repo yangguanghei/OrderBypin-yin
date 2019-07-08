@@ -15,6 +15,12 @@
 		A2CA451522CF420B00A6CAD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA451422CF420B00A6CAD2 /* main.m */; };
 		A2CA451F22CF420B00A6CAD2 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA451E22CF420B00A6CAD2 /* _______Tests.m */; };
 		A2CA452A22CF420B00A6CAD2 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA452922CF420B00A6CAD2 /* _______UITests.m */; };
+		A2CA453922CF422C00A6CAD2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA453822CF422C00A6CAD2 /* Person.m */; };
+		A2CA453C22CF436400A6CAD2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA453B22CF436400A6CAD2 /* SecondViewController.m */; };
+		A2CA453F22CF436B00A6CAD2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA453E22CF436B00A6CAD2 /* ThirdViewController.m */; };
+		A2CA454622CF5C6C00A6CAD2 /* NSString+LSGetFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA454522CF5C6B00A6CAD2 /* NSString+LSGetFirstLetter.m */; };
+		A2CA456C22CF608000A6CAD2 /* NSArray+LSGetResultInOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA456B22CF608000A6CAD2 /* NSArray+LSGetResultInOrder.m */; };
+		A2CA456F22CF62A700A6CAD2 /* NSObject+LSModelToDict.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CA456E22CF62A700A6CAD2 /* NSObject+LSModelToDict.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		A2CA452522CF420B00A6CAD2 /* 按字母进行排序UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按字母进行排序UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CA452922CF420B00A6CAD2 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		A2CA452B22CF420B00A6CAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CA453722CF422C00A6CAD2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A2CA453822CF422C00A6CAD2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A2CA453A22CF436400A6CAD2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A2CA453B22CF436400A6CAD2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A2CA453D22CF436B00A6CAD2 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A2CA453E22CF436B00A6CAD2 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A2CA454422CF5C6B00A6CAD2 /* NSString+LSGetFirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LSGetFirstLetter.h"; sourceTree = "<group>"; };
+		A2CA454522CF5C6B00A6CAD2 /* NSString+LSGetFirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LSGetFirstLetter.m"; sourceTree = "<group>"; };
+		A2CA456A22CF608000A6CAD2 /* NSArray+LSGetResultInOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+LSGetResultInOrder.h"; sourceTree = "<group>"; };
+		A2CA456B22CF608000A6CAD2 /* NSArray+LSGetResultInOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LSGetResultInOrder.m"; sourceTree = "<group>"; };
+		A2CA456D22CF62A700A6CAD2 /* NSObject+LSModelToDict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LSModelToDict.h"; sourceTree = "<group>"; };
+		A2CA456E22CF62A700A6CAD2 /* NSObject+LSModelToDict.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LSModelToDict.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,22 @@
 		A2CA450422CF41FF00A6CAD2 /* 按字母进行排序 */ = {
 			isa = PBXGroup;
 			children = (
+				A2CA454422CF5C6B00A6CAD2 /* NSString+LSGetFirstLetter.h */,
+				A2CA454522CF5C6B00A6CAD2 /* NSString+LSGetFirstLetter.m */,
+				A2CA456A22CF608000A6CAD2 /* NSArray+LSGetResultInOrder.h */,
+				A2CA456B22CF608000A6CAD2 /* NSArray+LSGetResultInOrder.m */,
+				A2CA456D22CF62A700A6CAD2 /* NSObject+LSModelToDict.h */,
+				A2CA456E22CF62A700A6CAD2 /* NSObject+LSModelToDict.m */,
 				A2CA450522CF41FF00A6CAD2 /* AppDelegate.h */,
 				A2CA450622CF41FF00A6CAD2 /* AppDelegate.m */,
 				A2CA450822CF41FF00A6CAD2 /* ViewController.h */,
 				A2CA450922CF41FF00A6CAD2 /* ViewController.m */,
+				A2CA453A22CF436400A6CAD2 /* SecondViewController.h */,
+				A2CA453B22CF436400A6CAD2 /* SecondViewController.m */,
+				A2CA453D22CF436B00A6CAD2 /* ThirdViewController.h */,
+				A2CA453E22CF436B00A6CAD2 /* ThirdViewController.m */,
+				A2CA453722CF422C00A6CAD2 /* Person.h */,
+				A2CA453822CF422C00A6CAD2 /* Person.m */,
 				A2CA450B22CF41FF00A6CAD2 /* Main.storyboard */,
 				A2CA450E22CF420A00A6CAD2 /* Assets.xcassets */,
 				A2CA451022CF420B00A6CAD2 /* LaunchScreen.storyboard */,
@@ -262,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CA453C22CF436400A6CAD2 /* SecondViewController.m in Sources */,
 				A2CA450A22CF41FF00A6CAD2 /* ViewController.m in Sources */,
+				A2CA453F22CF436B00A6CAD2 /* ThirdViewController.m in Sources */,
+				A2CA456C22CF608000A6CAD2 /* NSArray+LSGetResultInOrder.m in Sources */,
 				A2CA451522CF420B00A6CAD2 /* main.m in Sources */,
+				A2CA454622CF5C6C00A6CAD2 /* NSString+LSGetFirstLetter.m in Sources */,
+				A2CA453922CF422C00A6CAD2 /* Person.m in Sources */,
 				A2CA450722CF41FF00A6CAD2 /* AppDelegate.m in Sources */,
+				A2CA456F22CF62A700A6CAD2 /* NSObject+LSModelToDict.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
